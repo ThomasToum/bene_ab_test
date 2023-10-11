@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+
+    <form action="{{ nextAction }}" method="get">
+        <label>
+            <input type="radio" name="size" value="large" required> Large
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="size" value="small" required> Small
+        </label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
